@@ -37,13 +37,13 @@ function two () {
 // CREATE FUNCTION three HERE
 function three () {
   // First, we have to find the element:
-  var two = document.getElementById('three')
+  var three = document.getElementById('three')
 
   // Next, we add an event listener to it:
   three.addEventListener('mouseenter', makeOrange)
 
   // Finally, we add one to make the colour white again
-  two.addEventListener('mouseleave', makeWhite)
+  three.addEventListener('mouseleave', makeWhite)
 // CREATE FUNCTION four HERE
 
 // Changes the background color of event's target
